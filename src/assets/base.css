@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .button-main-gradient {
+        border-color: theme('colors.primary');
+        border-width: 2px;
+        position: relative;
+        border-style: solid;
+        border-image: linear-gradient(45deg, theme('colors.third') 0%, theme('colors.third') 50%, theme('colors.secondary') 50%, theme('colors.secondary') 100%) 1;
+    }
+
+    .button-main-gradient:hover {
+        text-decoration: underline;
+    }
+}
