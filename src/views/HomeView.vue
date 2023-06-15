@@ -1,24 +1,22 @@
 <script setup>
-import ButtonItem from "../components/style/ButtonItem.vue";
+import ButtonItem from '../components/style/ButtonItem.vue'
 </script>
 
 <template>
   <div class="w-screen h-screen flex justify-center items-center">
     <div class="w-10/12 lg:w-6/12 flex flex-col gap-8 justify-center items-center">
-      <h1 class="text-4xl font-bold font-montserrat text-center">
-        <span class="under text-5xl bg-main-gradient">linehub.tech</span>
-        <br/>
-        está em desenvolvimento!
-      </h1>
+      <div class="under font-bold font-montserrat text-center text-5xl bg-main-gradient leading-10">
+        line<br />hub.<br />tech
+      </div>
+      <h2 class="text-4xl font-bold font-montserrat text-center">está em desenvolvimento!</h2>
 
-      <h2 class="text-xl font-semibold">
+      <h3 class="text-xl font-semibold">
         Estamos trabalhando para desenvolver a melhor solução em SVA.
-      </h2>
+      </h3>
 
-      <p>
-        Somos uma startup que impulsiona um hub de distribuição
-        de Serviços de Valor Agregado (SVA), conectando produtos,
-        empresas e pessoas de forma inovadora.
+      <p class="text-justify px-2 bg-white/75">
+        Somos uma startup que impulsiona um hub de distribuição de Serviços de Valor Agregado (SVA),
+        conectando produtos, empresas e pessoas de forma inovadora.
       </p>
 
       <div>
@@ -30,16 +28,10 @@ import ButtonItem from "../components/style/ButtonItem.vue";
 
 <style scoped>
 .under {
-  position: relative;
-  display: inline-grid;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.under::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  @apply bg-main-gradient;
+  display: inline-block;
+  text-align: left;
+  letter-spacing: -0.1em;
 }
 </style>
