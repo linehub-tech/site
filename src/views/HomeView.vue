@@ -3,10 +3,10 @@ import ButtonItem from '../components/style/ButtonItem.vue'
 </script>
 
 <template>
-  <div class="w-screen h-screen flex justify-center items-center">
+  <div class="min-w-screen min-h-screen flex justify-center items-center">
     <div class="w-10/12 lg:w-6/12 flex flex-col gap-8 justify-center items-center">
-      <div class="under font-bold font-montserrat text-center text-5xl bg-main-gradient leading-10">
-        line<br />hub.<br />tech
+      <div>
+        <img src="../assets/images/logo.svg" alt="linehub.tech" width="114" height="142">
       </div>
       <h2 class="text-4xl font-bold font-montserrat text-center">está em desenvolvimento!</h2>
 
