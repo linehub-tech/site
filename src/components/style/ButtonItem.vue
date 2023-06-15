@@ -40,7 +40,7 @@ const properties = computed(() => {
 
 <template>
   <button
-      class="overflow-hidden bg-noise-turbulence button-main-gradient font-semibold drop-shadow-md hover:drop-shadow-lg active:drop-shadow-square-double focus:outline-none focus:ring-1"
+      class="overflow-hidden button-main-gradient font-semibold drop-shadow-md hover:drop-shadow-lg active:drop-shadow-square-double focus:outline-none focus:ring-1"
       :class="properties"
   >
     <slot></slot>
