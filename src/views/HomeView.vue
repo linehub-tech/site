@@ -14,7 +14,7 @@ import ButtonItem from '../components/style/ButtonItem.vue'
         Estamos trabalhando para desenvolver a melhor solução em SVA.
       </h3>
 
-      <p class="text-justify px-2 bg-white/75">
+      <p class="text-justify px-2 bg-white/75 dark:bg-slate-700/75">
         Somos uma startup que impulsiona um hub de distribuição de Serviços de Valor Agregado (SVA),
         conectando produtos, empresas e pessoas de forma inovadora.
       </p>
