@@ -20,7 +20,12 @@ import ButtonItem from '../components/style/ButtonItem.vue'
       </p>
 
       <div>
-        <ButtonItem class="w-64">Fale com a gente</ButtonItem>
+        <a href="mailto:parcerias@linehub.tech">
+          <ButtonItem class="w-64 flex justify-center">
+            Fale com a gente
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAj0lEQVR4nO3YsQnDMBBA0Z8sEJO0tz+eII3JACkcu3DnYRIM2iCFdcd/oFbwOSSEQJIkSerUCDyBG8nNwBd4Z48JYG8xR9SdxKJqzMeYjifzILGyMYsxlSdzAda24ZlrBoZ/Qq7t4KUPOUtUOPRR4RoOIzpR4vEYFZ7zYUQnSkzisFX5fHgBU/YISZIkkcsPwUZ+ckKpJNQAAAAASUVORK5CYII=" width="25" height="25" alt="">
+          </ButtonItem>
+        </a>
       </div>
     </div>
   </div>
